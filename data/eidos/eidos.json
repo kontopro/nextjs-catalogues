@@ -1,0 +1,32 @@
+[
+    {
+        "kat_id":2,
+        "katigoria": "oplismos",
+        "kat_gr": "Οπλισμός",
+        "kat_foto": "getAfoto"
+    },
+    {
+        "kat_id":1,
+        "katigoria": "oxhmata",
+        "kat_gr": "Οχήματα",
+        "kat_foto": "getAfoto"
+    },
+    {
+        "kat_id":3,
+        "katigoria": "pirovola",
+        "kat_gr": "Πυροβόλα",
+        "kat_foto": "getAfoto",
+        "kyria_ylika": [
+                        {   "kyrio_id":1,
+                            "slyg": "m109",
+                            "kyrio_name": "Μ109Α5",
+                            "kyrio_foto":"getAfotoBabe"  
+                        },
+                        {   "kyrio_id":2,
+                            "slyg": "m109a3",
+                            "kyrio_name": "Μ109Α3",
+                            "kyrio_foto":"getAfotoBabe"  
+                        }
+        ]
+    }
+]
