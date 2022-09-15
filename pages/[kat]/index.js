@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import eidos from '../../data/eidos/eidos.json'
 
 export default function katigoria({kat}) {
@@ -7,9 +8,17 @@ export default function katigoria({kat}) {
             <p>Ονομασία: {kat.kat_gr}</p>
             <p>id: {kat.kat_id}</p>
             {/* Προσθήκη ΚΥ κατηγορίας */}
+            {!kat.kyria_ylika.length?
+            <div><p>Δεν έχουν προστεθεί ακόμη Κύρια Υλικά στην κατηγορία!</p></div>:
+              kat.kyria_ylika.map(x =>
+            <div key={x.kyrio_id}>
+              <Link href={`/${kat.katigoria}/${x.kyrio_slug}`}>
+                <a>{x.kyrio_name}</a>
+              </Link>
+            </div>
+                                  )}
         </div>
-    )
-}
+    )}
 
 export const getStaticPaths = async () => {
     

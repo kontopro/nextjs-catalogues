@@ -16,10 +16,13 @@ export default function Home() {
         <h1 className={styles.title}>Welcome</h1>
         <div>
           <p>here let's add some menu EIDH</p>
-          {menu.map(
-            x=>(<Link href={`/${x.katigoria}`}>
-                  <a>{x.kat_gr}</a>
-                </Link>)
+          {menu.map(x=>(
+                        <div key={x.kat_id}>
+                          <Link href={`/${x.katigoria}`}>
+                            <a>{x.kat_gr}</a>
+                          </Link>
+                        </div>
+                        )
             )}
         </div>        
       </main>
