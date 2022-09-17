@@ -42,13 +42,15 @@
                                                     "cat_id":12,
                                                     "catalogue_slug":"leo2a5skafos",
                                                     "catalogue_name":"catalogue skafos LEO Hell A5",
-                                                    "catalogue_gr":"Κατάλογος Σκάφους LEO Hell A5"
+                                                    "catalogue_gr":"Κατάλογος Σκάφους LEO Hell A5",
+                                                    "catalogue_foto":"ohbabe"
                                                 },
                                                 {
                                                     "cat_id":9,
                                                     "catalogue_slug":"leo2a5kyrio",
                                                     "catalogue_name":"catalogue skafos LEO Hell A5",
-                                                    "catalogue_gr":"Κύριος κατάλογος LEO Hell A5"
+                                                    "catalogue_gr":"Κύριος κατάλογος LEO Hell A5",
+                                                    "catalogue_foto":"ohbabe"
                                                     }
                                 ] 
                         }
@@ -68,7 +70,8 @@
                                                 "cat_id":2,
                                                 "catalogue_slug":"m109",
                                                 "catalogue_name":"catalogue M109",
-                                                "catalogue_gr":"Κατάλογος M109"
+                                                "catalogue_gr":"Κατάλογος M109",
+                                                "catalogue_foto":"ohbabe"
                                                 }] 
                         },
                         {   "kyrio_id":2,
