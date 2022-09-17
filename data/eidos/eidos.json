@@ -1,7 +1,61 @@
 [
-    
+    {
+        "kat_id":1,
+        "katigoria": "oplismos",
+        "kat_gr": "Οπλισμός",
+        "kat_foto": "getAfoto",
+        "kyria_ylika": [
+                        {   
+                            "kyrio_id":3,
+                            "kyrio_slug": "G3A3",
+                            "kyrio_name": "ΤΥΦ G3A3",
+                            "kyrio_foto":"getAfotoBabe" ,
+                            "kyrio_catalogues": [] 
+                        }
+    ]
+    },
     {
         "kat_id":3,
+        "katigoria": "oximata",
+        "kat_gr": "Οχήματα",
+        "kat_foto": "getAfoto",
+        "kyria_ylika": []
+    },    
+    {
+        "kat_id":4,
+        "katigoria": "armata",
+        "kat_gr": "Άρματα",
+        "kat_foto": "getAfoto",
+        "kyria_ylika": [
+                        {   "kyrio_id":8,
+                            "kyrio_slug": "leohell",
+                            "kyrio_name": "LEO Hell A1",
+                            "kyrio_foto":"getAfotoBabe",
+                            "kyrio_catalogues": [] 
+                        },
+                        {   "kyrio_id":7,
+                            "kyrio_slug": "leohella5",
+                            "kyrio_name": "LEO Hell A5",
+                            "kyrio_foto":"getAfotoBabe",
+                            "kyrio_catalogues": [
+                                                {
+                                                    "cat_id":12,
+                                                    "catalogue_slug":"leo2a5skafos",
+                                                    "catalogue_name":"catalogue skafos LEO Hell A5",
+                                                    "catalogue_gr":"Κατάλογος Σκάφους LEO Hell A5"
+                                                },
+                                                {
+                                                    "cat_id":9,
+                                                    "catalogue_slug":"leo2a5kyrio",
+                                                    "catalogue_name":"catalogue skafos LEO Hell A5",
+                                                    "catalogue_gr":"Κύριος κατάλογος LEO Hell A5"
+                                                    }
+                                ] 
+                        }
+        ]
+    },
+    {
+        "kat_id":2,
         "katigoria": "pirovola",
         "kat_gr": "Πυροβόλα",
         "kat_foto": "getAfoto",
@@ -9,13 +63,20 @@
                         {   "kyrio_id":1,
                             "kyrio_slug": "m109",
                             "kyrio_name": "Μ109Α5",
-                            "kyrio_foto":"getAfotoBabe"  
+                            "kyrio_foto":"getAfotoBabe",
+                            "kyrio_catalogues": [{
+                                                "cat_id":2,
+                                                "catalogue_slug":"m109",
+                                                "catalogue_name":"catalogue M109",
+                                                "catalogue_gr":"Κατάλογος M109"
+                                                }] 
                         },
                         {   "kyrio_id":2,
                             "kyrio_slug": "m109a3",
                             "kyrio_name": "Μ109Α3",
-                            "kyrio_foto":"getAfotoBabe"  
+                            "kyrio_foto":"getAfotoBabe"  ,
+                            "kyrio_catalogues": [] 
                         }
-        ]
+                    ]
     }
 ]

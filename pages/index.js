@@ -18,7 +18,7 @@ export default function Home() {
           <p>here let's add some menu EIDH</p>
           {menu.map(x=>(
                         <div key={x.kat_id}>
-                          <Link href={`/${x.katigoria}`}>
+                          <Link href={`/category/${x.katigoria}`}>
                             <a>{x.kat_gr}</a>
                           </Link>
                         </div>

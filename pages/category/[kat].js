@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import eidos from '../../data/eidos/eidos.json'
 
-export default function katigoria({kat}) {
+export default function categoryPage({kat}) {
     return(
         <div>
             <p>hello [kat]</p>
@@ -12,7 +12,7 @@ export default function katigoria({kat}) {
             <div><p>Δεν έχουν προστεθεί ακόμη Κύρια Υλικά στην κατηγορία!</p></div>:
               kat.kyria_ylika.map(x =>
             <div key={x.kyrio_id}>
-              <Link href={`/${kat.katigoria}/${x.kyrio_slug}`}>
+              <Link href={`/kyrio/${x.kyrio_slug}`}>
                 <a>{x.kyrio_name}</a>
               </Link>
             </div>
@@ -21,22 +21,14 @@ export default function katigoria({kat}) {
     )}
 
 export const getStaticPaths = async () => {
-    
     const paths = eidos.map(x => ({params: {kat: x.katigoria}}))
-
     return {
       paths,
       fallback:false
     }
 }
 
-export const getStaticProps = async ({params}) => {
-    
-const kat = eidos.find(x => x.katigoria === params.kat)
-
-  return {
-    props:{
-      kat
-    }
-  }
+export const getStaticProps = async ({params}) => {    
+  const kat = eidos.find(x => x.katigoria === params.kat)
+  return { props:{kat} }
 }
