@@ -22,9 +22,9 @@
                             "kyrio_catalogues": [
                                                 {
                                                     "cat_id":12,
-                                                    "catalogue_slug":"g3a3",
-                                                    "catalogue_name":"catalogue tyf G3 A3",
-                                                    "catalogue_gr":"Κατάλογος G3A3",
+                                                    "catalogue_slug":"g3a4",
+                                                    "catalogue_name":"catalogue tyf G3 A4",
+                                                    "catalogue_gr":"Κατάλογος G3A4",
                                                     "catalogue_foto":"ohbabe1"
                                                 } 
                                             ]
@@ -36,7 +36,7 @@
                             "kyrio_foto":"getAfotoBabe3",
                             "kyrio_catalogues": [
                                                 {
-                                                    "cat_id":12,
+                                                    "cat_id":11,
                                                     "catalogue_slug":"g3a5one",
                                                     "catalogue_name":"catalogue tyf G3 A5",
                                                     "catalogue_gr":"Κατάλογος G3 A5",
@@ -52,5 +52,56 @@
                                 ] 
                         }
                     ]
+    },
+
+    "oxhmata":
+    {
+        "kat_id":1,
+        "katigoria": "oximata",
+        "kat_gr": "Οχήματα",
+        "kat_foto": "getAfoto2",
+        "subcategories":[{
+            "sub_name":"sub-one",
+            "sub_slug":"erpistriofora",
+            "kyria_ylika": [                        
+                {   
+                    "kyrio_id":1,
+                    "kyrio_slug": "g3a4",
+                    "kyrio_name": "ΤΥΦ G3A4",
+                    "kyrio_foto":"getAfotoBabe2",
+                    "kyrio_catalogues": [
+                                        {
+                                            "cat_id":12,
+                                            "catalogue_slug":"g3a4",
+                                            "catalogue_name":"catalogue tyf G3 A4",
+                                            "catalogue_gr":"Κατάλογος G3A4",
+                                            "catalogue_foto":"ohbabe1"
+                                        } 
+                                    ]
+               
+                }]
+        },{
+            "sub_name":"sub-two",
+            "sub_slug":"tethorakismena",
+            "kyria_ylika": [                        
+                {   
+                    "kyrio_id":1,
+                    "kyrio_slug": "g3a4",
+                    "kyrio_name": "ΤΥΦ G3A4",
+                    "kyrio_foto":"getAfotoBabe2",
+                    "kyrio_catalogues": [
+                                        {
+                                            "cat_id":12,
+                                            "catalogue_slug":"g3a4",
+                                            "catalogue_name":"catalogue tyf G3 A4",
+                                            "catalogue_gr":"Κατάλογος G3A4",
+                                            "catalogue_foto":"ohbabe1"
+                                        } 
+                                    ]
+               
+                }]
+        }]
     }
 }
+    
+
