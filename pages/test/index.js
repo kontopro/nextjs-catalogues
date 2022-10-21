@@ -3,12 +3,15 @@ import eidos from '../../data/eidos/eidos.json'
 
 export default function testPage() {   
     
-  // Όλα τα Κύρια Υλικά
+  
+    // Όλα τα Κύρια Υλικά
   const kyria = eidos.map(x => x.kyria_ylika).flat()
-  const tid = kyria.map(x => x.kyrio_id)
+  
+  // Όλες οι υποκατηγορίες
+  // const subcats = kyria.kat_subcategories?kyria.kat_subcategories.map(x=>x):null
 //   Όλοι οι κατάλογοι
     const ecat = kyria.map(x => x.kyrio_catalogues).flat()
-  console.log(ecat)
+  console.log(kyria)
 
     return(
         <div>

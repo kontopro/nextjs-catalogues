@@ -1,10 +1,11 @@
-
+{
+        
+    "ecats":
     [
-         {
+        {
         "kat_id":1,
         "katigoria": "oplismos",
         "kat_gr": "Οπλισμός",
-        "kat_subcategories": [],
         "kat_foto": "getAfoto",
         "kyria_ylika": [
                         {   
@@ -14,26 +15,24 @@
                             "kyrio_foto":"getAfotoBabe" ,
                             "kyrio_catalogues": [] 
                         }
-    ]
-    },
-    {
+                        ]
+        }
+    ,
+        {
         "kat_id":3,
         "katigoria": "oximata",
         "kat_gr": "Οχήματα",
-        "kat_subcategories": [],
         "kat_foto": "getAfoto",
         "kyria_ylika": []
-    },    
-    {
+        }
+    ,    
+        {
         "kat_id":4,
         "katigoria": "armata",
         "kat_gr": "Άρματα",
-        "kat_subcategories": [{"id":1,"slug":"leo","nested":1},{"id":2,"slug":"subarma1","nested":1},{"id":3,"slug":"subarma2","nested":2}],
         "kat_foto": "getAfoto",
         "kyria_ylika": [
                         {   "kyrio_id":8,
-                            "kyrio_subid":1,
-                            "kyrio_subcategory":"leo",
                             "kyrio_slug": "leohell",
                             "kyrio_name": "LEO Hell A1",
                             "kyrio_foto":"getAfotoBabe",
@@ -61,12 +60,12 @@
                                 ] 
                         }
         ]
-    },
-    {
+        }
+    ,
+        {
         "kat_id":2,
         "katigoria": "pirovola",
         "kat_gr": "Πυροβόλα",
-        "kat_subcategories": [],
         "kat_foto": "getAfoto",
         "kyria_ylika": [
                         {   "kyrio_id":1,
@@ -88,5 +87,7 @@
                             "kyrio_catalogues": [] 
                         }
                     ]
-    }
-]
+        }
+
+    ]
+}

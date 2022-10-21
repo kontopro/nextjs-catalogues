@@ -1,0 +1,56 @@
+{
+        
+    "oplismos":
+    {
+        "kat_id":1,
+        "katigoria": "oplismos",
+        "kat_gr": "Οπλισμός",
+        "kat_foto": "getAfoto",
+        "kyria_ylika": [
+                        {   
+                            "kyrio_id":2,
+                            "kyrio_slug": "g3a3",
+                            "kyrio_name": "ΤΥΦ G3A3",
+                            "kyrio_foto":"getAfotoBabe1",
+                            "kyrio_catalogues": [] 
+                        },
+                        {   
+                            "kyrio_id":1,
+                            "kyrio_slug": "g3a4",
+                            "kyrio_name": "ΤΥΦ G3A4",
+                            "kyrio_foto":"getAfotoBabe2",
+                            "kyrio_catalogues": [
+                                                {
+                                                    "cat_id":12,
+                                                    "catalogue_slug":"g3a3",
+                                                    "catalogue_name":"catalogue tyf G3 A3",
+                                                    "catalogue_gr":"Κατάλογος G3A3",
+                                                    "catalogue_foto":"ohbabe1"
+                                                } 
+                                            ]
+                       
+                        },
+                        {   "kyrio_id":3,
+                            "kyrio_slug": "g3a5",
+                            "kyrio_name": "ΤΥΦ G3A5",
+                            "kyrio_foto":"getAfotoBabe3",
+                            "kyrio_catalogues": [
+                                                {
+                                                    "cat_id":12,
+                                                    "catalogue_slug":"g3a5one",
+                                                    "catalogue_name":"catalogue tyf G3 A5",
+                                                    "catalogue_gr":"Κατάλογος G3 A5",
+                                                    "catalogue_foto":"ohbabe2"
+                                                },
+                                                {
+                                                    "cat_id":9,
+                                                    "catalogue_slug":"g3a5two",
+                                                    "catalogue_name":"catalogue second tyf G3 A5two",
+                                                    "catalogue_gr":"Κύριος κατάλογος G3 A5",
+                                                    "catalogue_foto":"ohbabe3"
+                                                    }
+                                ] 
+                        }
+                    ]
+    }
+}
