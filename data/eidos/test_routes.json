@@ -5,16 +5,16 @@
         "kat_gr": "Οπλισμός",
         "kat_foto": "getAfoto",
         "subcategories":[{
-            "sub_name":"sub-one",
-            "sub_slug":"erpistriofora",
+            "sub_name":"sub-one-1",
+            "sub_slug":"erpistriofora-1",
             "subcategories":[{
-                "sub_name":"sub-one",
+                "sub_name":"sub-one-one",
                 "sub_slug":"erpistriofora",
                 "subcategories":[{
-                    "sub_name":"sub-one",
+                    "sub_name":"sub-one3",
                     "sub_slug":"erpistriofora",
                     "subcategories":[{
-                        "sub_name":"sub-one",
+                        "sub_name":"sub-one4",
                         "sub_slug":"erpistriofora",
         "kyria_ylika": [
                         {   
@@ -63,8 +63,8 @@
                         }
                     ]
                 },{
-                    "sub_name":"sub-one",
-                        "sub_slug":"erpistriofora",
+                    "sub_name":"sub-two-2",
+                        "sub_slug":"erpistriofora-two",
                         "kyria_ylika": [
                                         {   
                                             "kyrio_id":2,
@@ -83,7 +83,7 @@
         "kat_gr": "Οχήματα",
         "kat_foto": "getAfoto2",
         "subcategories":[{
-            "sub_name":"sub-one",
+            "sub_name":"sub-one-1",
             "sub_slug":"erpistriofora",
             "kyria_ylika": [                        
                 {   
@@ -103,7 +103,7 @@
                
                 }]
         },{
-            "sub_name":"sub-two",
+            "sub_name":"sub-two-1",
             "sub_slug":"tethorakismena",
             "kyria_ylika": [                        
                 {   
@@ -130,7 +130,7 @@
         "kat_gr": "Πυροβόλα",
         "kat_foto": "getAfoto3",
         "subcategories":[{
-            "sub_name":"sub-one",
+            "sub_name":"sub-one-3",
             "sub_slug":"erpistriofora",
             "subcategories":[{
                 "sub_name":"sub-sub-one",
